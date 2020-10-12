@@ -37,7 +37,8 @@
     "@semantic-release/exec": "5.0.0"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "start": "node ./node_modules/@wmfs/tymly-runner/lib/index.js"
   },
   "config": {
     "commitizen": {
